@@ -1,9 +1,10 @@
 ---
-- host: localhost
+- hosts: localhost
   connection: local
   become: true
 
   tasks:
-    - name: instal htop
-      package: 
-      name: htop 
+  - name: instal htop
+    package: 
+      name: 
+        - htop 
